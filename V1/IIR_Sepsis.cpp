@@ -324,7 +324,7 @@ void mainSimulation(int inj_number, float oxyHeal, int infectSpread, int numRecu
 			j++;
 			length=TH0array.size();}
 		length=ecArray.size();
-		shuffle(ecIndexes.begin(),ecIndexes.end(),generator);}
+		shuffle(ecIndexes.begin(),ecIndexes.end(),generator);
 		j=0;
 		while(j<length){
 			ecArray[ecIndexes[j]].inj_function(infectSpread,numInfectRepeat);
