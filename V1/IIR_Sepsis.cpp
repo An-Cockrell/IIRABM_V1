@@ -239,7 +239,7 @@ void mainSimulation(int inj_number, float oxyHeal, int infectSpread, int numRecu
 	iFlagTest=0;
 	mstep2=movieStep;
 	for(i=0;i<xDim*yDim;i++){
-		ecIndexes.append[i];
+		ecIndexes.push_back(i);
 	}
 	for(i=0;i<numTimeSteps;i++){
 		if((numReseeds>0)&&(istep==reseedTime)&&(procID!=0)){
