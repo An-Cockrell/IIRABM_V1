@@ -6,7 +6,7 @@ $mpirun -n<Number of Processing Cores> IIRABM_executable
 
 All modifiable parameters are defined in the “Parameters.h” file
 
-Copyright (C) 2017  Gary and and Chase Cockrell
+Copyright (C) 2017  Gary An and Chase Cockrell
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
