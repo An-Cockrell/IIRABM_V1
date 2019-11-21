@@ -1,3 +1,5 @@
+This version of the IIRABM is described in: Cockrell, Chase, and Gary An. "Sepsis reconsidered: identifying novel metrics for behavioral landscape characterization with a high-performance computing implementation of an agent-based model." Journal of theoretical biology 430 (2017): 157-168; and Cockrell, Robert Chase, and Gary An. "Examining the controllability of sepsis using genetic algorithms on an agent-based model of systemic inflammation." PLoS computational biology 14, no. 2 (2018): e1005876.
+
 Simulation parameters are all set in the “Parameters.h” file prior to compilation.  The IIRABM can be compiled using any C++ compiler that has the C++11 standard and access to an MPI library.  A typical compilation and execution would look like:
 
 $CC -o IIRABM_executable *.cpp -std=c++11
